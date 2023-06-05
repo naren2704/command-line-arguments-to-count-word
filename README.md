@@ -24,6 +24,7 @@ Give print statement.
 End the program.
 
 ## PROGRAM:
+```
 import sys
 count=0
 with open(sys.argv[1],'r') as f:
@@ -31,6 +32,7 @@ with open(sys.argv[1],'r') as f:
         word=line.split()
         count += len(word)
 print("Word Count in file =",count)
+```
 
 ### OUTPUT:
 ![image](https://github.com/naren2704/command-line-arguments-to-count-word/assets/118706984/29502dbd-be7e-4fe3-9098-361967e3040c)
